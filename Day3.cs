@@ -76,20 +76,13 @@ namespace Advent_of_Code_2020
             Name = "Day Three";
         }
 
-        public override void SolvePuzzles()
-        {
-            SolvePuzzleOne();
-            SolvePuzzleTwo();
-            base.SolvePuzzles();
-        }
-
-        private void SolvePuzzleOne()
+        protected override void SolvePuzzleOne()
         {
             var input = TransfromInput();
             Console.WriteLine(CountTrees(horizontalIncrement: 3, verticalIncrement: 1, input));
         }
 
-        private void SolvePuzzleTwo()
+        protected override void SolvePuzzleTwo()
         {
             var input = TransfromInput();
 

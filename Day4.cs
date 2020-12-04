@@ -141,14 +141,7 @@ namespace Advent_of_Code_2020
             Name = "Day Four";
         }
 
-        public override void SolvePuzzles()
-        {
-            SolvePuzzleOne();
-            SolvePuzzleTwo();
-            base.SolvePuzzles();
-        }
-
-        private void SolvePuzzleOne()
+        protected override void SolvePuzzleOne()
         {
             int validPassports = 0;
             foreach (var line in this.input)
@@ -168,7 +161,7 @@ namespace Advent_of_Code_2020
             Console.WriteLine(validPassports);
         }
 
-        private void SolvePuzzleTwo()
+        protected override void SolvePuzzleTwo()
         {
             int validPassports = 0;
             var isAnyFieldInvalid = false;

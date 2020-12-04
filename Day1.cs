@@ -42,14 +42,7 @@ namespace Advent_of_Code_2020
             Name = "Day One";
         }
 
-        public override void SolvePuzzles()
-        {
-            SolvePuzzleOne();
-            SolvePuzzleTwo();
-            base.SolvePuzzles();
-        }
-
-        private void SolvePuzzleOne()
+        protected override void SolvePuzzleOne()
         {
             for (int i = 0; i < this.input.Length; ++i)
             {
@@ -66,7 +59,7 @@ namespace Advent_of_Code_2020
             }
         }
 
-        private void SolvePuzzleTwo()
+        protected override void SolvePuzzleTwo()
         {
             for (int i = 0; i < this.input.Length; ++i)
             {
