@@ -134,7 +134,7 @@ namespace Advent_of_Code_2020
                 }
                 
                 // In case vertical increment is bigger than 1
-                if (vertical > input.Count)
+                if (vertical >= input.Count)
                 {
                     break;
                 }
