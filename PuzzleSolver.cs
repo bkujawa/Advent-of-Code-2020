@@ -8,13 +8,11 @@ namespace Advent_of_Code_2020
     public abstract class PuzzleSolver
     {
         private Stopwatch stopwatch;
-        protected readonly string inputString;
         protected string[] input;
         protected string Name { get; set; }
 
         public PuzzleSolver(string inputString)
         {
-            this.inputString = inputString;
             this.input = File.ReadAllLines(inputString);
             this.stopwatch = new Stopwatch();
         }
