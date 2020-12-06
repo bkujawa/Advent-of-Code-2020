@@ -20,6 +20,9 @@
 
             puzzleSolver = new Day5(InputStrings.InputStringDay5);
             puzzleSolver.SolvePuzzles();
+
+            puzzleSolver = new Day6(InputStrings.InputStringDay6);
+            puzzleSolver.SolvePuzzles();
         }
     }
 }
