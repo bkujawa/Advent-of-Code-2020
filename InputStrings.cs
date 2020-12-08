@@ -9,5 +9,6 @@ namespace Advent_of_Code_2020
         public static string InputStringDay5 = "InputDay5.txt";
         public static string InputStringDay6 = "InputDay6.txt";
         public static string InputStringDay7 = "InputDay7.txt";
+        public static string InputStringDay8 = "InputDay8.txt";
     }
 }

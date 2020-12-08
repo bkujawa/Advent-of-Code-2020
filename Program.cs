@@ -26,6 +26,9 @@
 
             puzzleSolver = new Day7(InputStrings.InputStringDay7);
             puzzleSolver.SolvePuzzles();
+
+            puzzleSolver = new Day8(InputStrings.InputStringDay8);
+            puzzleSolver.SolvePuzzles();
         }
     }
 }

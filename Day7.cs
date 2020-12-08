@@ -116,7 +116,7 @@ namespace Advent_of_Code_2020
         private string GetBagName(string rule)
         {
             // First two words of rule are bags name
-            var temp = rule.Split(" ", 3);
+            var temp = rule.Split(" ");
             var bagName = temp[0] + " " + temp[1];
             return bagName;
         }
